@@ -1,0 +1,27 @@
+:root {
+    --color-brand-primary: #2947A9;
+    --color-brand-secondary: #F9995D;
+
+    --color-brand-neutral: rgb(41, 46, 61);
+    --color-brand-neutral-300:#A3AAC2;
+
+    --color-brand-grey:#A3AAC2;
+    --color-brand-light:#F6F8F7;
+    --color-white:#fff;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-weight: normal;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
