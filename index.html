@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Box</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="assets/script.js" defer></script>
 </head>
 <body>
@@ -39,17 +40,36 @@
         </div>
     </section>
 
-    <section class="limit-width">
-        <h2>About us</h2>
-        <div class="profile"></div>
+    <section class="limit-width profile">
+            <div class="about-us">
+                <h2>About us</h2>
+                <p>
+                    For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way. 
+                </p>
+                <p>
+                    We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
+                </p>
+                <a href="https://google.com" class="button">More on our History</a>
+            </div>
     </section>
 
-    <section>
+    <section class="consult-cta">
         <h2>Free consultation with exceptional quality</h2>
+        <span class="call-us">Just one call away: +84 1102 2703</span>
+        <a href="https://google.com" class="button consultation">More on our History</a>
     </section>
 
     <section>
-        <h2>Projects</h2>
+        <span class="left slider-controller" id="left-control"><img alt="left-arrow" src="assets/img/headphoneicon.svg" width="50px" height="50px"></span>
+        <span class="right slider-controller" id="right-control"><img alt="right-arrow" src="assets/img/headphoneicon.svg" width="50px" height="50px"></span>
+        <div class="slider-container">
+            <ul class="slider-wrapper" id="slider-wrapper">
+                <li class="slider"><img src="assets/img/gallery1.jpg"></li>
+                <li class="slider"><img src="assets/img/gallery2.jpg"></li>
+                <li class="slider"><img src="assets/img/gallery3.jpg"></li>
+                <li class="slider"><img src="assets/img/gallery4.jpg"></li>
+            </ul>	
+        </div>
     </section>
 
     <section>

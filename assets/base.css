@@ -23,5 +23,16 @@ a {
     text-decoration: inherit;
 }
 
+p {
+    margin:0 0 1.5rem 0;
+}
+
+.button {
+    background-color: var(--color-brand-light);
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    color: var(--color-brand-primary);
+    font-weight: 700;
+}
 
 

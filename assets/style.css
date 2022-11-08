@@ -52,6 +52,7 @@ p {
 
 section {
     padding: 3rem 0;
+    margin: 2rem 0;
 }
 
 .card-container {
@@ -73,14 +74,98 @@ section {
 }
 
 .profile {
-    background-image: url(img/founder.jpg) no-repeat;
-    height: 300px;
+    background: url(img/founder.jpg) no-repeat;
+    background-position: -2rem;
+    background-size:contain;
+    height: 640px;
     box-shadow: #000;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.about-us {
+    background-color: var(--color-brand-primary);
+    color: var(--color-brand-light);
+    padding: 2.5rem;
+    max-width: 500px;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.about-us h2 {
+    text-align: left;
+    color: var(--color-brand-light);
+}
+
+.about-us > a {
+
+    margin-top: auto;
+}
+
+.consult-cta {
+    background: url(img/consultation.jpg);
+}
+
+/* SLIDER */
+.slider-container{
+	width: 1170px;
+	height: 800px;
+	margin: 0 auto;
+	/*background: blue;*/
+	overflow: hidden;
+	margin-top: 60px;
+}
+.slider-wrapper{
+	position: relative;
+	width: 10000px;
+	height: 100%;
+	/*background:red;*/
+	left: 0px;
+	transition: all 1s ease;
+  list-style-type: none;
+}
+.slider-wrapper .slider{
+	float: left;
+	width: 1170px;
+	height: 800px;
+}
+.slider-wrapper img{
+	width: 100%;
+	height: 100%;
+}
+
+.slider-controller{
+	padding: 5px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0.5,0.5,0.5,0.3);
+}
+.slider-controller:hover{
+	background-color: black;
+	opacity: .5;
+	transition: all .3s ease-in-out;
+}
+.slider-controller img{
+    top: -30rem;
+	height: auto;
+	filter: brightness(0) invert(1);
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
 
 /* UTILITY */
 
 .limit-width {
-    width: calc(100vw - (6.25rem*2));
-    margin: 0 auto;
+    /* width: calc(100vw - (6.25rem*2)); */
+    width:1170px;
+    margin: 2rem auto;
 }
