@@ -218,7 +218,7 @@ li.slider > span {
 }
 
 .contact-us-container {
-    width: 430px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -227,6 +227,10 @@ li.slider > span {
 .contact-us-container form {
     display: flex;
     flex-direction: column;
+}
+
+.contact-us-container p {
+    text-align: center;
 }
 
 .form-group {
@@ -300,7 +304,7 @@ footer {
 }
 
 .wdgt {
-    padding: 3rem 0;
+    padding:0 0 3.5rem 0;
 }
 
 .wdgt > input {
