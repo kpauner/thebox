@@ -49,38 +49,92 @@
                 <p>
                     We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
                 </p>
-                <a href="https://google.com" class="button">More on our History</a>
+                <a href="https://google.com" class="btn">More on our History</a>
             </div>
     </section>
 
     <section class="consult-cta">
-        <h2>Free consultation with exceptional quality</h2>
-        <span class="call-us">Just one call away: +84 1102 2703</span>
-        <a href="https://google.com" class="button consultation">More on our History</a>
-    </section>
-
-    <section>
-        <span class="left slider-controller" id="left-control"><img alt="left-arrow" src="assets/img/headphoneicon.svg" width="50px" height="50px"></span>
-        <span class="right slider-controller" id="right-control"><img alt="right-arrow" src="assets/img/headphoneicon.svg" width="50px" height="50px"></span>
-        <div class="slider-container">
-            <ul class="slider-wrapper" id="slider-wrapper">
-                <li class="slider"><img src="assets/img/gallery1.jpg"></li>
-                <li class="slider"><img src="assets/img/gallery2.jpg"></li>
-                <li class="slider"><img src="assets/img/gallery3.jpg"></li>
-                <li class="slider"><img src="assets/img/gallery4.jpg"></li>
-            </ul>	
+        <div class="consult-cta-container limit-width">
+            <div>
+                <h2>Free consultation with exceptional quality</h2>
+                <span class="call-us">Just one call away: +84 1102 2703</span>
+            </div>
+            <a href="https://google.com" class="btn consultation">More on our History</a>
         </div>
     </section>
 
     <section>
-        <h2>How can we help you?</h2>
-        <p>ddd</p>
-        <form></form>
+        <h2>Projects</h2>
+        <div class="slider">
+            <span class="left slider-controller" id="left-control"><img alt="left-arrow" src="assets/img/arrow-left.png"></span> 
+            <div class="slider-container">
+                <ul class="slider-wrapper" id="slider-wrapper">
+                    <li class="slider"><img src="assets/img/gallery1.jpg"><span>hello</span></li>
+                    <li class="slider"><img src="assets/img/gallery2.jpg"><span>hello</span></li>
+                    <li class="slider"><img src="assets/img/gallery3.jpg"><span>hello</span></li>
+                    <li class="slider"><img src="assets/img/gallery4.jpg"><span>hello</span></li>
+                    <li class="slider"><img src="assets/img/gallery1.jpg"><span>hello</span></li>
+                    <li class="slider"><img src="assets/img/gallery2.jpg"><span>hello</span></li>
+                </ul>	
+            </div>
+            <span class="right slider-controller" id="right-control"><img alt="right-arrow" src="assets/img/arrow-right.png"></span>
+        </div>
     </section>
 
-    <footer>
-        <div class="copyright"><p>TheBox Company © 2022. All Rights Reserved</p></div>
+    <section class="contact-us">
+        <div class="contact-us-container">
+            <h2>How can we help you?</h2>
+            <p>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+
+            <form id="form">
+                <div class="form-group">
+                    <input type="text" name="username" id="username" placeholder="Your Name" class="form-input"/>
+                    <label id="name-error" class="hidden" for="username">Please enter your name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" class="form-input"/>
+                    <label id="email-error" class="hidden" for="email">Please enter your email</label>
+                </div>
+                <div class="form-group">
+                    <textarea rows="6" name="message" id="message" placeholder="Type your message" class="form-input"></textarea>
+                    <label id="message-error" class="hidden" for="message">Please enter your message</label>
+                </div>
+
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="limit-width">
+        <div class="contact-info">
+            <span class="note">Adress:</span><p class="span-3">6391 Elgin St. Celina, Delaware 10299</p>
+            <span class="note">Phone:</span><p class="span-3">+84 1102 2703</p>
+            <span class="note">Email:</span><p class="span-3">hello@thebox.com</p>
+            <img src="assets/img/theboxlogo.svg" width="120" alt="thebox-logo" class="span-3"> 
+        </div>
+
+        <div class="marketing">
+            <div class="wdgt">
+                <span class="note">Newsletter:</span>
+                <input type="email" name="subscribe" id="subscribe" placeholder="Your email here">
+                <button class="btn">Subscribe</button>
+            </div>
+
+            <div class="wdgt">
+                <span class="note">Social:</span>
+                <div class="socials">
+                    <img src="assets/img/akar-icons_facebook-fill.png" width="30" alt="thebox-logo">
+                    <img src="assets/img/entypo-social_linkedin-with-circle.png" width="30" alt="thebox-logo"> 
+                    <img src="assets/img/entypo-social_twitter-with-circle.png" width="30" alt="thebox-logo"> 
+                </div>
+            </div>
+        </div>
     </footer>
+
+<div class="copyright">
+    <div class="limit-width">TheBox Company © 2022. All Rights Reserved</div>
+</div>
     
 </body>
 </html>

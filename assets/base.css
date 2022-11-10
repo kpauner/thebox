@@ -4,10 +4,12 @@
 
     --color-brand-neutral: rgb(41, 46, 61);
     --color-brand-neutral-300:#A3AAC2;
+    --color-brand-neutral-100:#E0E3EB;
 
     --color-brand-grey:#A3AAC2;
     --color-brand-light:#F6F8F7;
     --color-white:#fff;
+    --color-error:#f65c78;
 }
 
 *, *::before, *::after {
@@ -27,9 +29,10 @@ p {
     margin:0 0 1.5rem 0;
 }
 
-.button {
+.btn {
     background-color: var(--color-brand-light);
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
+    height: 40px;
     padding: 0.8rem;
     color: var(--color-brand-primary);
     font-weight: 700;
