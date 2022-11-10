@@ -32,7 +32,7 @@ p {
 .btn {
     background-color: var(--color-brand-light);
     border-radius: 0.2rem;
-    height: 40px;
+    min-height: 40px;
     padding: 0.8rem;
     color: var(--color-brand-primary);
     font-weight: 700;
