@@ -66,10 +66,10 @@ p {
 }
 
 .hero h1 {
-    margin: 0 6rem;
+    width: 1170px;
+    margin: 0 auto;
     font-size: 4rem;
     font-weight: 700;
-    width: 44rem;
     color: var(--color-brand-neutral);
 }
 
